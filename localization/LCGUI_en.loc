@@ -1,0 +1,42 @@
+load_model_btn->Load CNN Model
+predict_model_btn->Predict
+model_functions_frame->Detection
+load_ctscan_btn->Load CT Scan data
+load_ctsegment_btn->Load CT Segmentation
+dataset_functions_frame->CT Scan functions
+label4->Dataset resolution: 
+label5->Detection shape: 
+label6->Localization shape: 
+dataset_res_lbl->Not loaded
+input_shape_lbl->Not loaded
+localization_shape_lbl->Not loaded
+label10->Patient:
+label11->Slice count:
+patient_filename_lbl->Not loaded
+slice_count_lbl->Not loaded
+info_frame->Model/Dataset information
+original_img_frame->Original image
+cnn_img_frame->CNN view
+slice_treeview0->
+slice_treeview1->Slice Number
+slice_treeview2->Z Position
+slice_treeview3->Probability
+segmentation_cbtn->Use segmentation
+reshape_btn->Reshape dataset
+show_original_btn->Show orig. image
+show_cnn_btn->Show input image
+options_frame->Additional Options
+loc_segmentation_cbtn->Use segmentation
+load_localization_btn->Load loc. Model
+predict_localization_btn->Localize selected
+localization_function_frame->Localization model
+input_cbx1->Default
+load_model_err->[!]An error occured while trying to load detection network!
+predict_err->[!]Prediction failed! Dataset may not be reshaped yet!
+load_ct_scan_err->[!]An error occured while trying to load patient data into memory!
+load_ct_segment_err->[!]An error occured while trying to load segmentation data into memory!
+reshape_err->[!]Dataset or detection neural network not loaded! Please load necesarry files
+show_original_err->[!]Full dataset image couldnt have been shown!
+show_cnn_err->[!]CNN image couldnt have been shown!
+load_localization_err->[!]An error occured while trying to load detection network!
+prediction_err->[!]Prediction failed!

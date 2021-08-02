@@ -1,0 +1,42 @@
+load_model_btn->Naèítaj model
+predict_model_btn->Predvídaj
+model_functions_frame->Funkcie CNN modelu
+load_ctscan_btn->Naèítaj CT sken
+load_ctsegment_btn->Naèítaj segmentáciu
+dataset_functions_frame->Funkcie datasetu
+label4->Rozlíšenie datasetu:
+label5->Tvar modelu:
+label6->Tvar loc. modelu:
+dataset_res_lbl->Nenaèítané
+input_shape_lbl->Nenaèítané
+localization_shape_lbl->Nenaèítané
+label10->Pacient:
+label11->Poèet snímok:
+patient_filename_lbl->Nenaèítané
+slice_count_lbl->Nenaèítané
+info_frame->Informácie
+original_img_frame->Pôvodný snímok
+cnn_img_frame->Upravený snímok
+slice_treeview0->
+slice_treeview1->Èíslo snímku
+slice_treeview2->Z pozícia
+slice_treeview3->Pravdepodobnos
+segmentation_cbtn->Segmentova
+reshape_btn->Pretvor dataset
+show_original_btn->Pôvodný snímok
+show_cnn_btn->Upravený snímok
+options_frame->Nastavenia
+loc_segmentation_cbtn->Segmentova
+load_localization_btn->Naèítaj lok. model
+predict_localization_btn->Lokalizuj výber
+localization_function_frame->Funkcie lok. modelu
+input_cbx1->Default
+load_model_err->[!]Pri naèítavaní detekèného modelu nastala chyba!
+predict_err->[!]Predikcia zlyhala! Dataset pravdepodobne nie je pretvorený!
+load_ct_scan_err->[!]Pri naèítavaní CT snímkov nastala chyba!
+load_ct_segment_err->[!]Pre naèítabaní segmentaèných dát nastala chyba!
+reshape_err->[!]Dataset alebo detekèný model niesu naèítané. Prosím naèítajte všetky potrebné dáta.
+show_original_err->[!]Pôvodný snímok nebolo možné zobrazi!
+show_cnn_err->[!]Upravený snímok nebolo možné zobrazi!
+load_localization_err->[!]Pri naèítavaní lokalizaèného modelu nastala chyba!
+prediction_err->[!]Predikcia zlyhala!
